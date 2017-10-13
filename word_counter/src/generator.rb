@@ -1,0 +1,2 @@
+# ruby -e 'a=STDIN.readlines;3985667.times do;b=[];100.times do; b << a[rand(a.size)].chomp end; puts b.join(" "); end' < /usr/share/dict/words > file.txt
+ruby -e 'a=STDIN.readlines;398.times do;b=[];40.times do; b << a[rand(a.size)].chomp end; puts b.join(" "); end' < /usr/share/dict/words > file.txt
